@@ -1,0 +1,8 @@
+{
+  "item.aisguns.karambit": "Karambit",
+
+  "effect.aisguns.berserk": "Berserk",
+
+  "death.attack.berserk": "%1$s got a bit too angie",
+  "death.attack.berserk.player": "%1$s got a bit too angie at %2$s"
+}

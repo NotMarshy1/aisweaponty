@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "aisguns",
+	"version": "${version}",
+	"name": "aisguns",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"thatoneaiguy"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/aisguns/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.thatoneaiguy.guns.init.Aisguns"
+		],
+		"client": [
+			"com.thatoneaiguy.guns.client.AisGunsClient"
+		]
+	},
+	"mixins": [
+		"aisguns.mixins.json"
+	],
+	"accessWidener" : "aisguns.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.15.1",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
